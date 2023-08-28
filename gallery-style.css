@@ -123,3 +123,22 @@ ul {
 .interview-inset-images {
     margin: 4em 0;
 }
+
+.interview-image {
+    margin-right: 4em;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        padding-left: 0;
+    }
+    .interview-column {
+        width: 100%;
+    }
+    .interview-image {
+        width: 90%;
+    }
+    .interview-image-lg {
+        display: none;
+    }
+}
