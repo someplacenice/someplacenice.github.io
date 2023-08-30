@@ -16,6 +16,10 @@ body {
   padding: 40px 5%;
 }
 
+hr {
+  margin-bottom: 2rem;
+}
+
 p {
   line-height: 1.5;
   margin-bottom: 1rem;
