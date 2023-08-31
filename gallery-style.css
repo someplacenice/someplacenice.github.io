@@ -27,6 +27,7 @@ p {
 
 h1,h2,h3,h4,h5,h6 {
   color: 202020;
+  font-family: 'Cinzel', serif;
 }
 
 h1 {
@@ -46,6 +47,14 @@ h2 {
   margin-bottom: 2rem;
 }
 
+.heading-text a {
+  color: #202020;
+  text-decoration: none;
+}
+/* add an underline on hover */
+.heading-text a:hover {
+  text-decoration: underline;
+}
 .heading-text span {
   font-weight: 100;
 }
@@ -111,7 +120,7 @@ ul {
 
 #jumbo {
     width: auto;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 #jumbo img {
@@ -130,6 +139,17 @@ ul {
 
 .interview-image {
     margin-right: 4em;
+}
+
+.interview-heading {
+    margin-bottom: 0;
+}
+
+/* 'light' is a grey and italic text */
+.light {
+    color: #808080;
+    font-style: italic;
+    margin-bottom: 2em;
 }
 
 @media (max-width: 768px) {
