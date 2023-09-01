@@ -193,15 +193,15 @@ ul {
   margin-left: 1em;
 }
 /* footer links should be in a row and minimal styling */
-.foot-nav a {
+nav a {
     color: #202020;
     text-decoration: underline;
     font-size: 1em;
 }
 
-/* .first-social {
-    margin-left: 50%;
-} */
+.mobile-foot-nav {
+    display: none;
+}
 
 @media (max-width: 768px) {
     h1 {
@@ -215,5 +215,21 @@ ul {
     }
     .interview-image-lg {
         display: none;
+    }
+    #mc-embedded-subscribe {
+        width: 100%;
+    }
+    #mce-EMAIL {
+        width: 100%;
+        margin: 0;
+    }
+    .hide-mobile {
+      display: none;
+    }
+    .mobile-foot-nav {
+        display: block;
+    }
+    .mobile-foot-nav li {
+      margin-top: 0.5em;
     }
 }
